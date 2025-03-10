@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Score App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="scorebtn-wrapper">
+   <div id="score-wrapper">
+        <div class="hoaway-section">
+            <h1>HOME</h1>
+            <div class="num-bg">
+                <h3 id="home-num">0</h3>
+            </div>
+
+            <div class="buttons">
+                <button class="add1"  onclick="addHomeOne()">+1</button>
+                <button class="add2"  onclick="addHomeTwo()">+2</button>
+                <button class="add3"  onclick="addHomeThree()">+3</button>
+            </div>
+        </div>
+
+
+        <div class="hoaway-section">
+            <h1>GUEST</h1>
+            <div class="num-bg">
+                <h3 id="guest-num">0</h3>
+            </div>
+
+            <div class="buttons">
+ <button class="add1" onclick="addGuestOne()">+1</button>
+                <button class="add2"  onclick="addGuestTwo()">+2</button>
+                <button class="add3"  onclick="addGuestThree()">+3</button>
+            </div>
+
+
+        </div>
+   </div>
+
+   <button id="reset-btn" onclick="resetBtn()">Reset</button>
+
+</div>
+    <script src="/script.js"></script>
+</body>
+</html>

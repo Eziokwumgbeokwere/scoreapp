@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #111827, #1F2937);
+}
+
+#score-wrapper{  
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.scorebtn-wrapper{
+    background-color: #FDA4AF;
+    width: 575px;
+    margin: 50px auto;
+    height: 385px;
+    padding: 30px 50px;
+    border-radius: 30px;
+
+}
+
+.num-bg{
+    background-color: black;
+    width: 155px;
+    height: 120px;
+}
+
+#home-num, #guest-num{
+    color: #FDA4AF;
+}
+
+.num-bg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hoaway-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    background-color: #881337;
+    padding: 10px;
+    margin-right: 13px;
+    margin-top: 30px;
+    border:none;
+}
+
+#reset-btn{
+    margin-top: 30px;
+    margin-left: 200px;
+    padding: 25px 60px;
+    border-radius: 30px;
+}
